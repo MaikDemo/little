@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- TODO: * modificar variable objeto-->
+    <meta name="auth" content="Maikol Valdivia"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Litle Italy Pasta Marinera</title>
+    <meta name="description" content="Variedad de mariscos, langostinos, calamares, pulpo servidos con una salsa cremosa."/>
+    <meta name="keywords" content=""/>
+    <meta name="theme-color" content="#000"/>
+    <link rel="icon" href="media/litle_italy-icon.png" type="image/png"/>
+  </head>
+  <body>
+    <header class="headerplate">
+      <picture class="headerplate__picture">
+        <source class="headerplate__img" media="(max-width: 480px)" srcset="media/litle_italy-small.svg" alt="Logo Litle Italy"/>
+        <source class="headerplate__img" media="(max-width: 768px)" srcset="media/litle_italy-medium.svg" alt="Logo Litle Italy"/><img class="headerplate__img" srcset="media/litle_italy.svg" alt="Logo Litle Italy"/>
+      </picture>
+    </header>
+    <div class="content__plate">
+      <!-- TODO: * modificar variable objeto-->
+      <div class="plate">
+        <div class="plate__img">
+          <picture class="plate__cont__picture"><img class="plate__picture" srcset="media/pastas/PASTA_MARINERA.png" alt="Pasta Marinera"/></picture>
+        </div>
+        <div class="plate__body">
+          <h2 class="plate__title">Marinera</h2>
+          <p class="plate__text">Variedad de mariscos, langostinos, calamares, pulpo servidos con una salsa cremosa.</p>
+          <div class="hr"></div>
+          <p class="plate__price">M&nbsp;-&nbsp;32</p>
+          <p class="plate__price">G&nbsp;-&nbsp;58</p>
+        </div>
+        <br><br>
+        <div class="sponsors">
+          <div class="sponsors__body">
+                  <div class="sponsors__content sponsors__content--plate" id="Guarana"><img class="sponsors__img" alt="Sponsor Guarana" srcset="media/guarana.svg"/></div>
+          </div>
+        </div>
+      </div>
+      <!-- TODO: * modificar variable TITULO-->
+    </div>
+        <div class="btn"><a class="btn__link" href="pastas.html"><img class="btn__img" src="media/back_button.svg" alt="btn-atras"/></a></div>
+    <footer class="footer">
+      <div class="footer__body"><img class="footer__img" src="media/footer.svg" alt="imagen footer"/></div>
+    </footer>
+    <div id="preloading">
+      <div class="load"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

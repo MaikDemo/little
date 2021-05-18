@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="auth" content="Maikol Valdivia"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Litle Italy PIZZAS</title>
+    <meta name="description" content="Aqui va la descripcion de la pagina"/>
+    <meta name="keywords" content=""/>
+    <meta name="theme-color" content="#000"/>
+    <link rel="icon" href="media/litle_italy-icon.png" type="image/png"/>
+  </head>
+  <body>
+    <div class="headerdishes">
+      <picture class="headerdishes__picture">
+        <source class="headerdishes__img" media="(max-width: 480px)" srcset="media/titulo-small.png"/>
+        <source class="headerdishes__img" media="(max-width: 768px)" srcset="media/titulo-medium.png"/><img class="headerdishes__img" src="media/titulo.png" alt="fondo titulo"/>
+      </picture>
+      <h3 class="headerdishes__text">&#8226; Pizzas &#8226;</h3>
+    </div>
+    <div class="content-dishes">
+      <div class="dishes">
+        <!-- TODO: * Modificar el | INCLUDE | y la variable de objetos-->
+        <div class="dishes__plate"><a class="dishes__link" href="pizza_pique.html">
+            <picture class="dishes__picture"><img class="dishes__img" alt="Pique Macho" srcset="media/pizzas/thumbnail/PIQUE-thumbnail.png" loading="lazy"/></picture></a>
+          <div class="dishes__name">
+            <p class="dishes__text">Pizza Pique Macho</p>
+            <p class="dishes__price">Bs &nbsp;32</p>
+            <p class="dishes__price">&nbsp;-&nbsp;58</p>
+          </div>
+        </div>
+        <div class="dishes__plate"><a class="dishes__link" href="margarita.html">
+            <picture class="dishes__picture"><img class="dishes__img" alt="Margarita" srcset="media/pizzas/thumbnail/MARGARITA-thumbnail.png" loading="lazy"/></picture></a>
+          <div class="dishes__name">
+            <p class="dishes__text">Margarita</p>
+            <p class="dishes__price">Bs &nbsp;25</p>
+            <p class="dishes__price">&nbsp;-&nbsp;46</p>
+          </div>
+        </div>
+        <div class="dishes__plate"><a class="dishes__link" href="champiniones.html">
+            <picture class="dishes__picture"><img class="dishes__img" alt="Champiniones" srcset="media/pizzas/thumbnail/PIZZA_FUNGHI-thumbnail.png" loading="lazy"/></picture></a>
+          <div class="dishes__name">
+            <p class="dishes__text">Champiñones</p>
+            <p class="dishes__price">Bs &nbsp;25</p>
+            <p class="dishes__price">&nbsp;-&nbsp;48</p>
+          </div>
+        </div>
+        <div class="dishes__plate"><a class="dishes__link" href="marinera.html">
+            <picture class="dishes__picture"><img class="dishes__img" alt="Marinera" srcset="media/pizzas/thumbnail/PIZZA_MARINERA-thumbnail.png" loading="lazy"/></picture></a>
+          <div class="dishes__name">
+            <p class="dishes__text">Marinera</p>
+            <p class="dishes__price">Bs &nbsp;26</p>
+            <p class="dishes__price">&nbsp;-&nbsp;52</p>
+          </div>
+        </div>
+        <div class="dishes__plate"><a class="dishes__link" href="hawaiana.html">
+            <picture class="dishes__picture"><img class="dishes__img" alt="Hawaiana" srcset="media/pizzas/thumbnail/HAWAIANA-thumbnail.png" loading="lazy"/></picture></a>
+          <div class="dishes__name">
+            <p class="dishes__text">Hawaiana</p>
+            <p class="dishes__price">Bs &nbsp;25</p>
+            <p class="dishes__price">&nbsp;-&nbsp;48</p>
+          </div>
+        </div>
+        <div class="dishes__plate"><a class="dishes__link" href="carnivora.html">
+            <picture class="dishes__picture"><img class="dishes__img" alt="Carnívora" srcset="media/pizzas/thumbnail/PIZZA_CARNIVORA-thumbnail.png" loading="lazy"/></picture></a>
+          <div class="dishes__name">
+            <p class="dishes__text">Carnívora</p>
+            <p class="dishes__price">Bs &nbsp;27</p>
+            <p class="dishes__price">&nbsp;-&nbsp;54</p>
+          </div>
+        </div>
+        <div class="dishes__plate"><a class="dishes__link" href="salchi_pizza.html">
+            <picture class="dishes__picture"><img class="dishes__img" alt="Salchi Pizza" srcset="media/pizzas/thumbnail/SALCHI_PIZZA-thumbnail.png" loading="lazy"/></picture></a>
+          <div class="dishes__name">
+            <p class="dishes__text">Salchi Pizza</p>
+            <p class="dishes__price">Bs &nbsp;24</p>
+            <p class="dishes__price">&nbsp;-&nbsp;44</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="preloading">
+      <div class="load"></div>
+    </div>
+        <div class="btn"><a class="btn__link" href="index.html"><img class="btn__img" src="media/back_button.svg" alt="btn-atras"/></a></div>
+    <script src="app.js"></script>
+    <footer class="footer">
+      <div class="footer__body"><img class="footer__img" src="media/footer.svg" alt="imagen footer"/></div>
+    </footer>
+  </body>
+</html>

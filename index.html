@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="auth" content="Maikol Valdivia"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Litle Italy Menu</title>
+    <meta name="description" content="Litle Italy"/>
+    <meta name="keywords" content=""/>
+    <meta name="theme-color" content="#000"/>
+    <link rel="icon" href="media/litle_italy-icon.png" type="image/png"/>
+  </head>
+  <body>
+    <div class="maxwidth">
+      <header class="header">
+        <picture>
+          <source class="header__img" media="(max-width: 480px)" srcset="media/litle_italy-header-small.jpg" alt="Litle Italy banner"/>
+          <source class="header__img" media="(max-width: 768px)" srcset="media/litle_italy-header-medium.jpg" alt="Litle Italy banner"/><img class="header__img" srcset="media/litle_italy-header-long.jpg" alt="Litle Italy banner"/>
+        </picture>
+        <picture>
+          <source class="header__logo" media="(max-width: 480px)" srcset="media/litle_italy-small.svg" alt="Logo Litle Italy"/>
+          <source class="header__logo" media="(max-width: 768px)" srcset="media/litle_italy-medium.svg" alt="Logo Litle Italy"/><img class="header__logo" src="media/litle_italy.svg" alt="Logo Litle Italy"/>
+        </picture>
+      </header>
+      <div class="menu">
+        <div class="menu__body">
+          <nav class="menu__nav">
+            <a class="menu__item" href="pizzas.html"><img class="menu__btn" src="media/botones/btn1.svg" alt=""/><span class="menu__text">Pizzas</span></a>
+            <a class="menu__item" href="pastas.html"><img class="menu__btn" src="media/botones/btn3.svg" alt=""/><span class="menu__text">Pastas</span></a>
+            <a class="menu__item" href="milanesa.html"><img class="menu__btn" src="media/botones/btn4.svg" alt=""/><span class="menu__text">Milanesas</span></a>
+            <a class="menu__item" href="combos.html"><img class="menu__btn" src="media/botones/btn1.svg" alt=""/><span class="menu__text">Combos</span></a>
+            <a class="menu__item" href="bebidas.html"><img class="menu__btn" src="media/botones/btn2.svg" alt=""/><span class="menu__text">Bebidas</span></a>
+          </nav>
+        </div>
+        <footer class="footer">
+          <div class="footer__body"><img class="footer__img" src="media/footer.svg" alt="imagen footer"/></div>
+        </footer>
+      </div>
+    </div>
+    <div id="preloading">
+      <div class="load"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
